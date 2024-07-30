@@ -21,20 +21,78 @@
     border: inherit;
     font-size: 70px;
 }
- 
+
+
+
 .crado{
-    display: flex;
+   display: flex;
    align-items: center;
-   
-
+   flex-direction: column;
+  
 }
+
 .equilatero{
-    width:50px;
-    height: 50px;
+    width: 70%;
+    height: 80px;
     border: inherit ;
-    margin: 5px;
+    margin: 1px;
+    margin-top: 80px;
 }
- 
 
+.equilateros{
+    width: 70%;
+    height: 80px;
+    border: inherit ;
+    margin: 1px;
+    margin-top: 80px;
+}
 
+.cuadrito{
+    height: 100%;
+    width: 80px; 
+}
 
+.cuadritos{
+    height: 100%;
+    width: 80px;
+    margin: 0px 0px 0px 589px;
+}
+
+.circulo{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.boton{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    border: 0px;
+    margin: 40px;
+}
+
+.botoncito{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+
+.cir{
+    height: 450px;
+    width:450px;
+    display: flex;
+    position: absolute;
+    border-radius: 500px ;
+    top: -289px;
+}
+
+.content > :nth-child(2) > :nth-child(1){
+    background-color: black;
+}
+
+.trabajo{
+    
+}
